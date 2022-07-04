@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "rlu-atari"
+version = "0.1.0"
+description = ""
+authors = ["Ethan Brooks <ethanabrooks@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+tensorflow-datasets = "^4.6.0"
+tensorflow-gpu = "^2.9.1"
+setuptools = "^63.0.0"
+apache-beam = {version = "^2.40.0", extras = ["gcp"]}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
