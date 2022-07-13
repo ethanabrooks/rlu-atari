@@ -9,7 +9,7 @@ import apache_beam as beam
 
 # `beam_options` (and `beam_runner`) will be forwarded to `beam.Pipeline`
 
-name = "rlu_atari"
+name = "rlu_atari_checkpoints_ordered"
 gcp_project = "rlu-atari"
 gcs_bucket = "gs://rlu-atari"
 
